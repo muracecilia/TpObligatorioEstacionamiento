@@ -44,7 +44,7 @@
   <div class="jumbotron mt-3">
     <h1>Inconveniente con la conexion</h1>
     <p class="lead">Seguro es un Problema de Usted, nuestro sistema funciona Bien...</p>
-    <a class="btn btn-lg btn-primary" href="bienvenido.php" role="button">Bienvenido &raquo;</a>
+    <a class="btn btn-lg btn-primary" href="index.php" role="button">Bienvenido &raquo;</a>
   </div>
 </div>
 <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
