@@ -6,11 +6,19 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.80.0">
-    <title>Estacionamiento JuanCar</title>
+
+    <!--title>Estacionamiento JuanCar</title>
+    <link  rel="icon"   href="favicon.ico" type="image/png" /-->
+    
+    <?php
+
+      include_once"titulo.php";
+
+    ?>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/sign-in/">
 
-    <link  rel="icon"   href="ROTONDA.ICO" type="image/png" />
+    
 
     <!-- Bootstrap core CSS -->
 <!--link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"   CODIGO ABSOLUTO... NO NO SIRVE!!!--> 
