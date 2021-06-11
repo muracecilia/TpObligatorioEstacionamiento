@@ -52,8 +52,7 @@
 </div>
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-  <h1 class="display-4">REGISTRAR PATENTES</h1>
-  <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+  <h1 class="display-4">TICKET</h1>
 </div>
 
 <div class="container">
@@ -75,37 +74,24 @@
     </div-->
     <div class="card mb-4 shadow-sm">
       <div class="card-header">
-        <h4 class="my-0 font-weight-normal">ENTRADA</h4>
+        <h4 class="my-0 font-weight-normal">IMPORTE</h4>
       </div>
       <div class="card-body">
-        <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
+        <!--h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1-->
+        <h5>
+        <?php
+           include "salidaPatenteHacer.php";
+        ?>
+        </h5>
+        <!--ul class="list-unstyled mt-3 mb-4">
           <li>20 users included</li>
           <li>10 GB of storage</li>
           <li>Priority email support</li>
           <li>Help center access</li>
-        </ul>
+        </ul-->
         <!--button type="button" class="btn btn-lg btn-block btn-primary">Ingresar Patente</button-->
 
-        <p><a class="btn btn-lg btn-block btn-primary" href="ingresarPatente.php" role="button">Ingresar Patente</a></p>
-
-      </div>
-    </div>
-    <div class="card mb-4 shadow-sm">
-      <div class="card-header">
-        <h4 class="my-0 font-weight-normal">SALIDA</h4>
-      </div>
-      <div class="card-body">
-        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-        <ul class="list-unstyled mt-3 mb-4">
-          <li>30 users included</li>
-          <li>15 GB of storage</li>
-          <li>Phone and email support</li>
-          <li>Help center access</li>
-        </ul>
-        <!--button type="button" class="btn btn-lg btn-block btn-primary">Salida de Patente</button-->
-
-        <p><a class="btn btn-lg btn-block btn-primary" href="salidaPatente.php" role="button">Salida de  Patente</a></p>
+        <p><a class="btn btn-lg btn-block btn-primary" href="index.php" role="button">Volver al Inicio</a></p>
 
       </div>
     </div>

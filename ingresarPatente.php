@@ -40,15 +40,23 @@
   </head>
   <body class="text-center">
     
-<form class="form-signin" action="hacerIngresarPatente.php" method="POST">
+<form class="form-signin" action="ingresarPatenteHacer.php" method="POST">
   <img class="mb-4" src="https://uxwing.com/wp-content/themes/uxwing/download/07-design-and-development/bootstrap-4.png" alt="" width="72" height="72">
   <h1 class="h3 mb-3 font-weight-normal">Ingreso de Patente</h1>
   
+  <select name="tipo" id="cboTipo" class="form-control">
+    <option value="auto"> Auto </option>
+    <option value="moto"> Moto </option>
+  </select> 
+
+  <br>
   <input name="patente" type="text" id="inputPatente" class="form-control" placeholder="Ingrese Patente" required autofocus>
   
   <br><br>
 
   <button class="btn btn-lg btn-primary btn-block" type="submit">Cargar</button>
+  <br>
+  <p><a class="btn btn-lg btn-block btn-primary" href="index.php" role="button">Volver al Inicio</a></p>
   <br>
   <p class="mt-5 mb-3 text-muted">&copy; 2017-2021</p>
 </form>
