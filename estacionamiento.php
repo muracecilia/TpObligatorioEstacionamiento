@@ -13,6 +13,7 @@ class estacionamiento
 		$listadeAutosLeida=leerArchivo("patentes.txt");
 		return $listadeAutosLeida;
 	}
+	
 	public static function retornarListadoAutocompletar()
 	{
 		$arrayPatente=estacionamiento::leer("estacionados");
